@@ -20,9 +20,13 @@ Then **AFTER** setting the image property of a *UIImageView* do:
 
 That's all.
 
-You can change the *CIDetectorAccuracy* from low to high but it will make the rendering slower.
-
 Enjoy!
+
+Notes:
+------
+* The red rectangle is just an option for debugging.
+* You can change the *CIDetectorAccuracy* from low to high if it fails to detect faces but it will make the rendering slower :(
+* **BEWARE** of this bug when running face detection on 64bit devices [http://stackoverflow.com/questions/19018962/core-image-face-detection-broken-on-64-bit-ios](http://stackoverflow.com/questions/19018962/core-image-face-detection-broken-on-64-bit-ios)
 
 License
 -------
