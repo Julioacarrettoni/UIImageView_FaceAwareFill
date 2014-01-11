@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4328213716BF1913002278B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4328213616BF1913002278B6 /* UIKit.framework */; };
+		4328213916BF1913002278B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4328213816BF1913002278B6 /* Foundation.framework */; };
+		4328213B16BF1913002278B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4328213A16BF1913002278B6 /* CoreGraphics.framework */; };
+		4328214116BF1913002278B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4328213F16BF1913002278B6 /* InfoPlist.strings */; };
+		4328214316BF1913002278B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4328214216BF1913002278B6 /* main.m */; };
+		4328214716BF1913002278B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4328214616BF1913002278B6 /* AppDelegate.m */; };
+		4328214916BF1913002278B6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4328214816BF1913002278B6 /* Default.png */; };
+		4328214B16BF1913002278B6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4328214A16BF1913002278B6 /* Default@2x.png */; };
+		4328214D16BF1913002278B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4328214C16BF1913002278B6 /* Default-568h@2x.png */; };
+		4328215016BF1913002278B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4328214F16BF1913002278B6 /* ViewController.m */; };
+		4328215316BF1913002278B6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4328215116BF1913002278B6 /* ViewController_iPhone.xib */; };
+		4328216416BF21A5002278B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4328216316BF21A5002278B6 /* QuartzCore.framework */; };
+		4328216616BF241B002278B6 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4328216516BF241B002278B6 /* CoreImage.framework */; };
+		43D737B31880D74E00A03CD0 /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737AA1880D74E00A03CD0 /* photo1.jpg */; };
+		43D737B41880D74E00A03CD0 /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737AB1880D74E00A03CD0 /* photo2.jpg */; };
+		43D737B51880D74E00A03CD0 /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737AC1880D74E00A03CD0 /* photo3.jpg */; };
+		43D737B61880D74E00A03CD0 /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737AD1880D74E00A03CD0 /* photo4.jpg */; };
+		43D737B71880D74E00A03CD0 /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737AE1880D74E00A03CD0 /* photo5.jpg */; };
+		43D737B81880D74E00A03CD0 /* photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737AF1880D74E00A03CD0 /* photo6.jpg */; };
+		43D737B91880D74E00A03CD0 /* photo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737B01880D74E00A03CD0 /* photo7.jpg */; };
+		43D737BA1880D74E00A03CD0 /* photo8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737B11880D74E00A03CD0 /* photo8.jpg */; };
+		43D737BB1880D74E00A03CD0 /* photo9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43D737B21880D74E00A03CD0 /* photo9.jpg */; };
+		43D737BF1880D75800A03CD0 /* UIImageView+UIImageView_FaceAwareFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D737BE1880D75800A03CD0 /* UIImageView+UIImageView_FaceAwareFill.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4328213216BF1913002278B6 /* faceAwarenessClipping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceAwarenessClipping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4328213616BF1913002278B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4328213816BF1913002278B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4328213A16BF1913002278B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4328213E16BF1913002278B6 /* faceAwarenessClipping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "faceAwarenessClipping-Info.plist"; sourceTree = "<group>"; };
+		4328214016BF1913002278B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4328214216BF1913002278B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4328214416BF1913002278B6 /* faceAwarenessClipping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "faceAwarenessClipping-Prefix.pch"; sourceTree = "<group>"; };
+		4328214516BF1913002278B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4328214616BF1913002278B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4328214816BF1913002278B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4328214A16BF1913002278B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4328214C16BF1913002278B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4328214E16BF1913002278B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4328214F16BF1913002278B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4328215216BF1913002278B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		4328216316BF21A5002278B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4328216516BF241B002278B6 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		43D737AA1880D74E00A03CD0 /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpg; sourceTree = "<group>"; };
+		43D737AB1880D74E00A03CD0 /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpg; sourceTree = "<group>"; };
+		43D737AC1880D74E00A03CD0 /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpg; sourceTree = "<group>"; };
+		43D737AD1880D74E00A03CD0 /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpg; sourceTree = "<group>"; };
+		43D737AE1880D74E00A03CD0 /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpg; sourceTree = "<group>"; };
+		43D737AF1880D74E00A03CD0 /* photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6.jpg; sourceTree = "<group>"; };
+		43D737B01880D74E00A03CD0 /* photo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo7.jpg; sourceTree = "<group>"; };
+		43D737B11880D74E00A03CD0 /* photo8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo8.jpg; sourceTree = "<group>"; };
+		43D737B21880D74E00A03CD0 /* photo9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo9.jpg; sourceTree = "<group>"; };
+		43D737BD1880D75800A03CD0 /* UIImageView+UIImageView_FaceAwareFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIImageView_FaceAwareFill.h"; sourceTree = "<group>"; };
+		43D737BE1880D75800A03CD0 /* UIImageView+UIImageView_FaceAwareFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIImageView_FaceAwareFill.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4328212F16BF1913002278B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4328216616BF241B002278B6 /* CoreImage.framework in Frameworks */,
+				4328216416BF21A5002278B6 /* QuartzCore.framework in Frameworks */,
+				4328213716BF1913002278B6 /* UIKit.framework in Frameworks */,
+				4328213916BF1913002278B6 /* Foundation.framework in Frameworks */,
+				4328213B16BF1913002278B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4328212716BF1913002278B6 = {
+			isa = PBXGroup;
+			children = (
+				4328213C16BF1913002278B6 /* faceAwarenessClipping */,
+				4328213516BF1913002278B6 /* Frameworks */,
+				4328213316BF1913002278B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4328213316BF1913002278B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4328213216BF1913002278B6 /* faceAwarenessClipping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4328213516BF1913002278B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4328216516BF241B002278B6 /* CoreImage.framework */,
+				4328216316BF21A5002278B6 /* QuartzCore.framework */,
+				4328213616BF1913002278B6 /* UIKit.framework */,
+				4328213816BF1913002278B6 /* Foundation.framework */,
+				4328213A16BF1913002278B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4328213C16BF1913002278B6 /* faceAwarenessClipping */ = {
+			isa = PBXGroup;
+			children = (
+				43D737BC1880D75800A03CD0 /* UIImageView+FaceAwareFill */,
+				43D737A91880D74E00A03CD0 /* Photos */,
+				4328214516BF1913002278B6 /* AppDelegate.h */,
+				4328214616BF1913002278B6 /* AppDelegate.m */,
+				4328214E16BF1913002278B6 /* ViewController.h */,
+				4328214F16BF1913002278B6 /* ViewController.m */,
+				4328215116BF1913002278B6 /* ViewController_iPhone.xib */,
+				4328213D16BF1913002278B6 /* Supporting Files */,
+			);
+			path = faceAwarenessClipping;
+			sourceTree = "<group>";
+		};
+		4328213D16BF1913002278B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4328213E16BF1913002278B6 /* faceAwarenessClipping-Info.plist */,
+				4328213F16BF1913002278B6 /* InfoPlist.strings */,
+				4328214216BF1913002278B6 /* main.m */,
+				4328214416BF1913002278B6 /* faceAwarenessClipping-Prefix.pch */,
+				4328214816BF1913002278B6 /* Default.png */,
+				4328214A16BF1913002278B6 /* Default@2x.png */,
+				4328214C16BF1913002278B6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43D737A91880D74E00A03CD0 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				43D737AA1880D74E00A03CD0 /* photo1.jpg */,
+				43D737AB1880D74E00A03CD0 /* photo2.jpg */,
+				43D737AC1880D74E00A03CD0 /* photo3.jpg */,
+				43D737AD1880D74E00A03CD0 /* photo4.jpg */,
+				43D737AE1880D74E00A03CD0 /* photo5.jpg */,
+				43D737AF1880D74E00A03CD0 /* photo6.jpg */,
+				43D737B01880D74E00A03CD0 /* photo7.jpg */,
+				43D737B11880D74E00A03CD0 /* photo8.jpg */,
+				43D737B21880D74E00A03CD0 /* photo9.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		43D737BC1880D75800A03CD0 /* UIImageView+FaceAwareFill */ = {
+			isa = PBXGroup;
+			children = (
+				43D737BD1880D75800A03CD0 /* UIImageView+UIImageView_FaceAwareFill.h */,
+				43D737BE1880D75800A03CD0 /* UIImageView+UIImageView_FaceAwareFill.m */,
+			);
+			path = "UIImageView+FaceAwareFill";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4328213116BF1913002278B6 /* faceAwarenessClipping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4328215916BF1913002278B6 /* Build configuration list for PBXNativeTarget "faceAwarenessClipping" */;
+			buildPhases = (
+				4328212E16BF1913002278B6 /* Sources */,
+				4328212F16BF1913002278B6 /* Frameworks */,
+				4328213016BF1913002278B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = faceAwarenessClipping;
+			productName = faceAwarenessClipping;
+			productReference = 4328213216BF1913002278B6 /* faceAwarenessClipping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4328212916BF1913002278B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Julio Andrés Carrettoni";
+			};
+			buildConfigurationList = 4328212C16BF1913002278B6 /* Build configuration list for PBXProject "faceAwarenessClipping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4328212716BF1913002278B6;
+			productRefGroup = 4328213316BF1913002278B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4328213116BF1913002278B6 /* faceAwarenessClipping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4328213016BF1913002278B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D737B71880D74E00A03CD0 /* photo5.jpg in Resources */,
+				43D737B81880D74E00A03CD0 /* photo6.jpg in Resources */,
+				43D737BB1880D74E00A03CD0 /* photo9.jpg in Resources */,
+				43D737BA1880D74E00A03CD0 /* photo8.jpg in Resources */,
+				43D737B91880D74E00A03CD0 /* photo7.jpg in Resources */,
+				4328214116BF1913002278B6 /* InfoPlist.strings in Resources */,
+				4328214916BF1913002278B6 /* Default.png in Resources */,
+				43D737B41880D74E00A03CD0 /* photo2.jpg in Resources */,
+				43D737B31880D74E00A03CD0 /* photo1.jpg in Resources */,
+				4328214B16BF1913002278B6 /* Default@2x.png in Resources */,
+				4328214D16BF1913002278B6 /* Default-568h@2x.png in Resources */,
+				43D737B51880D74E00A03CD0 /* photo3.jpg in Resources */,
+				4328215316BF1913002278B6 /* ViewController_iPhone.xib in Resources */,
+				43D737B61880D74E00A03CD0 /* photo4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4328212E16BF1913002278B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4328214316BF1913002278B6 /* main.m in Sources */,
+				4328214716BF1913002278B6 /* AppDelegate.m in Sources */,
+				43D737BF1880D75800A03CD0 /* UIImageView+UIImageView_FaceAwareFill.m in Sources */,
+				4328215016BF1913002278B6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4328213F16BF1913002278B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4328214016BF1913002278B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4328215116BF1913002278B6 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4328215216BF1913002278B6 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4328215716BF1913002278B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4328215816BF1913002278B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4328215A16BF1913002278B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "faceAwarenessClipping/faceAwarenessClipping-Prefix.pch";
+				INFOPLIST_FILE = "faceAwarenessClipping/faceAwarenessClipping-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4328215B16BF1913002278B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "faceAwarenessClipping/faceAwarenessClipping-Prefix.pch";
+				INFOPLIST_FILE = "faceAwarenessClipping/faceAwarenessClipping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4328212C16BF1913002278B6 /* Build configuration list for PBXProject "faceAwarenessClipping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4328215716BF1913002278B6 /* Debug */,
+				4328215816BF1913002278B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4328215916BF1913002278B6 /* Build configuration list for PBXNativeTarget "faceAwarenessClipping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4328215A16BF1913002278B6 /* Debug */,
+				4328215B16BF1913002278B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4328212916BF1913002278B6 /* Project object */;
+}
