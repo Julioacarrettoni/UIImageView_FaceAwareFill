@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Julioacarrettoni/UIImageView_FaceAwareFill"
   s.screenshots  = "https://raw2.github.com/Julioacarrettoni/UIImageView_FaceAwareFill/master/EXAMPLE.png"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { "Julio Andres" => "julioacarrettoni@gmail.com" }
+  s.author       = { "Julio Andres Carrettoni" => "julioacarrettoni@gmail.com" }
   s.source       = { :git => "https://github.com/Julioacarrettoni/UIImageView_FaceAwareFill.git", :tag => "v1.0" }
 
   s.platform     = :ios, '5.0'
