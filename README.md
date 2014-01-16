@@ -3,7 +3,12 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/FaceAwareFill/badge.png)](http://cocoadocs.org/docsets/FaceAwareFill)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/FaceAwareFill/badge.png)](http://cocoadocs.org/docsets/FaceAwareFill)
 
-This category applies Aspect Fill content mode to an image and if faces are detected it centers them instead of centering the image just by its geometrical center.
+This category applies Aspect Fill content mode to an image and if faces are detected it centers them instead of centering the image just by its geometrical center. 
+ 
+Based on this awesome post by [@maniacdev](https://twitter.com/maniacdev)
+
+ * [http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/](http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/)
+
 
 Example:
 --------
@@ -36,7 +41,7 @@ Enjoy!
 Author
 --------
 
-Julio Andrés Carretttoni, @dev_jac
+Julio Andrés Carretttoni, [@dev_jac](https://twitter.com/dev_jac)
 
 Notes:
 ------
