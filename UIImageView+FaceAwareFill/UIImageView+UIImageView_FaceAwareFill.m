@@ -12,22 +12,20 @@
 
 @implementation UIImageView (UIImageView_FaceAwareFill)
 
+// Set debug mode
+#define DEBUGGING YES
 
 // based on this: http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/
 - (void) faceAwareFill {
-    [self faceAwareFillShowFaces:NO];
-}
-
-- (void) faceAwareFillShowFaces:(BOOL) showFaces {
     // Safe check!
     if (self.image == nil) {
         return;
     }
-
+    
     self.contentMode = UIViewContentModeTopLeft;
     
     CGRect facesRect = [self rectWithFaces];
-    [self scaleImageFocusingOnRect:facesRect showFaces:showFaces];
+    [self scaleImageFocusingOnRect:facesRect];
 }
 
 - (CGRect) rectWithFaces {
@@ -66,7 +64,7 @@
     return totalFaceRects;
 }
 
-- (void) scaleImageFocusingOnRect:(CGRect) facesRect showFaces:(BOOL) showFaces; {
+- (void) scaleImageFocusingOnRect:(CGRect) facesRect {
     CGFloat multi1 = self.frame.size.width / self.image.size.width;
     CGFloat multi2 = self.frame.size.height / self.image.size.height;
     CGFloat multi = MAX(multi1, multi2);
@@ -92,7 +90,7 @@
     self.image = newImage;
     
     //This is to show the red rectangle over the faces
-    if (showFaces) {
+    if (DEBUGGING) {
         NSInteger theRedRectangleTag = -3312;
         UIView* facesRectLine = [self viewWithTag:theRedRectangleTag];
         if (!facesRectLine) {
