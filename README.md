@@ -36,7 +36,7 @@ Enjoy!
 Author
 --------
 
-Julio Andres, julioacarrettoni@gmail.com
+Julio Andrés Carretttoni, @dev_jac
 
 Notes:
 ------
