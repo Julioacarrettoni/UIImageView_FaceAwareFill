@@ -12,9 +12,6 @@
 
 @implementation UIImageView (UIImageView_FaceAwareFill)
 
-// Set debug mode
-#define DEBUGGING YES
-
 // based on this: http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/
 - (void) faceAwareFill {
     // Safe check!
@@ -90,7 +87,7 @@
     self.image = newImage;
     
     //This is to show the red rectangle over the faces
-    if (DEBUGGING) {
+    #ifdef DEBUGGING_FACE_AWARE_FILL
         NSInteger theRedRectangleTag = -3312;
         UIView* facesRectLine = [self viewWithTag:theRedRectangleTag];
         if (!facesRectLine) {
@@ -111,7 +108,7 @@
         facesRectLine.frame = frame;
         
         [self addSubview:facesRectLine];
-    }
+    #endif
 }
 
 @end

@@ -5,6 +5,10 @@
 
 This category applies Aspect Fill content mode to an image and if faces are detected it centers them instead of centering the image just by its geometrical center.
 
+Based on this awesome post by [@maniacdev](https://twitter.com/maniacdev)
+
+ * [http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/](http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/)
+
 Example:
 --------
 
@@ -32,6 +36,13 @@ That's all.
 
 Enjoy!
 
+Debugging
+--------
+A red rectangle can optionally be displayed on faces for debugging.
+
+To enable, add the following value to the preprocessor macros:
+
+    DEBUGGING_FACE_AWARE_FILL
 
 Author
 --------
@@ -40,7 +51,6 @@ Julio Andrés Carretttoni, @dev_jac
 
 Notes:
 ------
-* The red rectangle is just an option for debugging.
 * You can change the *CIDetectorAccuracy* from low to high if it fails to detect faces but it will make the rendering slower :(
 * **BEWARE** of this bug when running face detection on 64bit devices [http://stackoverflow.com/questions/19018962/core-image-face-detection-broken-on-64-bit-ios](http://stackoverflow.com/questions/19018962/core-image-face-detection-broken-on-64-bit-ios)
 
