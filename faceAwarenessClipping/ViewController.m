@@ -67,7 +67,7 @@
         imv.image = image;
     }
     
-    [faceAwareImageView faceAwareFillShowFaces:YES];//The YES is to show the red rectangle around the detected faces
+    [faceAwareImageView faceAwareFill];
     pageControls.currentPage = sender.value;
 }
 @end

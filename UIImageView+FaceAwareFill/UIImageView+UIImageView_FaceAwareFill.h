@@ -14,7 +14,4 @@
 //Not the simple center of the image
 - (void) faceAwareFill;
 
-//If showFaces == YES a red rectangle is draw over the detected faces (useful for debugging)
-- (void) faceAwareFillShowFaces:(BOOL) showFaces;
-
 @end
