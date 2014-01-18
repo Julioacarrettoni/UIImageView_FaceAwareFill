@@ -10,7 +10,19 @@
 #import <CoreImage/CoreImage.h>
 #import <QuartzCore/QuartzCore.h>
 
+
+static CIDetector* _faceDetector;
+
+
 @implementation UIImageView (UIImageView_FaceAwareFill)
+
++ (void)initialize
+{
+    _faceDetector = [CIDetector detectorOfType:CIDetectorTypeFace
+                                       context:nil
+                                       options:@{CIDetectorAccuracy:CIDetectorAccuracyLow}];
+    
+}
 
 // based on this: http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/
 - (void) faceAwareFill {
@@ -34,11 +46,9 @@
         image = [CIImage imageWithCGImage:self.image.CGImage];
     }
     
-    // create a face detector - since speed is not an issue we'll use a high accuracy detector
-    CIDetector* detector = [CIDetector detectorOfType:CIDetectorTypeFace
-                                              context:nil
-                                              options:@{CIDetectorAccuracy:CIDetectorAccuracyLow}];
-    
+    // Use the static CIDetector
+    CIDetector* detector = _faceDetector;
+
     // create an array containing all the detected faces from the detector
     NSArray* features = [detector featuresInImage:image];
     
