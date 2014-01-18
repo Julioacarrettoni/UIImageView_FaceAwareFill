@@ -31,9 +31,10 @@ static CIDetector* _faceDetector;
         return;
     }
     
-    self.contentMode = UIViewContentModeTopLeft;
-    
     CGRect facesRect = [self rectWithFaces];
+    if (facesRect.size.height + facesRect.size.width == 0)
+        return;
+    self.contentMode = UIViewContentModeTopLeft;
     [self scaleImageFocusingOnRect:facesRect];
 }
 
