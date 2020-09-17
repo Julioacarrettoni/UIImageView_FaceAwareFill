@@ -17,7 +17,7 @@ Based on this awesome post by [@maniacdev](https://twitter.com/maniacdev)
 Example:
 --------
 
-![image](https://raw2.github.com/Julioacarrettoni/UIImageView_FaceAwareFill/master/EXAMPLE.png)
+![image](https://raw.githubusercontent.com/Julioacarrettoni/UIImageView_FaceAwareFill/master/EXAMPLE.png)
 
 Installation
 --------
