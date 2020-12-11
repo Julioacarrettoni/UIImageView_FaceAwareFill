@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  @brief  it's just for u
+ */
 @interface ViewController : UIViewController
 {
     IBOutletCollection(UIImageView) NSArray *imageViews;
