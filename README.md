@@ -10,10 +10,6 @@ Based on this awesome post by [@maniacdev](https://twitter.com/maniacdev)
  * [http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/](http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/)
 
 
-Based on this awesome post by [@maniacdev](https://twitter.com/maniacdev)
-
- * [http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/](http://maniacdev.com/2011/11/tutorial-easy-face-detection-with-core-image-in-ios-5/)
-
 Example:
 --------
 
